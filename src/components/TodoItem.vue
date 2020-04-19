@@ -1,11 +1,11 @@
 <template>
- <div class="list_box">
+ <el-tag class="list_box">
   <p class="content">{{todo_item}}</p>
   <div>
    <span class="todo_but" @click="todoitemAdd">编辑</span>
    <span class="todo_but" @click="todoitemDel">删除</span>
   </div>
- </div>
+  </el-tag>
 </template>
 
 <script>
